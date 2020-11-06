@@ -2,6 +2,7 @@ const inputs = document.querySelectorAll(".input");
 
 
 function addcl(){
+    console.log(this.parentNode);
 	let parent = this.parentNode.parentNode;
 	parent.classList.add("focus");
 }
